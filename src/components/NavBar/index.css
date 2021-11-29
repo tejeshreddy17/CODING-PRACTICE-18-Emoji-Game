@@ -1,0 +1,42 @@
+/* Write your code here. */
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #ffffff33;
+  padding-left: 15px;
+  padding-right: 15px;
+  align-self: stretch;
+}
+.logo-style {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.score-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  flex-grow: 1;
+}
+.logo-heading-style {
+  color: white;
+  font-size: 24px;
+  margin-left: 15px;
+  font-weight: bold;
+}
+.score-style {
+  color: white;
+  font-weight: 500;
+  margin-right: 25px;
+  font-size: 18px;
+}
+.total-score-style {
+  color: white;
+  font-weight: 500;
+  margin-right: 25px;
+  font-size: 18px;
+}
